@@ -1,0 +1,19 @@
+:root{
+    --dark : black;
+    --mid: cyan;
+    --light: pink;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#cursolUser {
+   /* display: none ; */
+   height: 66vh;
+   width: 66vh;
+   margin: auto;
+   margin-top: 2rem;
+}
+#itemImg{
+   
+}
