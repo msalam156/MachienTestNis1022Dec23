@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.contianerTbl{
+    border-radius: 2vh;
+    width: 50%;
+    margin: auto;
+    box-shadow: inset 2px -1px 16px 14px grey; 
+}
+table{
+    border-radius: 2vh;
+    border: 2px solid grey;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 2vh;
+    padding: 1vh;
+    border: 2px solid rgb(114, 114, 114);
+    box-shadow: inset 0px 0px 3px 2px white;
+}
+button:hover{
+    box-shadow: inset 0px 0px 1px 1px white;
+}
+.homebtn{
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    color: white;
+    float: left;
+}

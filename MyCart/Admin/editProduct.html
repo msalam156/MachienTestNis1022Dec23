@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/editPro.css">
+  <title>editProduct</title>
+</head>
+
+<body>
+  <button><a class="homebtn" href="../index.html">Home</a></button>
+  <h1>Operation Product</h1>
+  <div class="contianerTbl">
+
+
+    <!-- <p><button id="add" onclick="add('tbl')">Add product</button></p> -->
+    <table border="" id="tbl">
+      <tr>
+        <td>
+          <div class="card">
+            <p><button>Add to Cart</button></p>
+            <img src="../Asset/pen.jpg" alt="" style="width: 25%;" id="one">
+            <p class="price">₹200</p>
+            <hr>
+          </div>
+        </td>
+        <td>
+          <p><button id="delete" onclick="del('one')">Delete product</button></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <p><button>Add to Cart</button></p>
+            <img src="../Asset/shoes.jpg" alt="" style="width: 25%;" id="two">
+            <p class="price">₹20000</p>
+            <hr>
+          </div>
+        </td>
+        <td>
+          <p><button id="delete" onclick="del('two')">Delete product</button></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <p><button>Add to Cart</button></p>
+            <img src="../Asset/hat.jpg" alt="" style="width: 25%;" id="three">
+            <p class="price">₹500</p>
+            <hr>
+          </div>
+        </td>
+        <td>
+          <p><button id="delete" onclick="del('three')">Delete product</button></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <p><button>Add to Cart</button></p>
+            <img src="../Asset/laptop.jpg" alt="" style="width: 25%;" id="four">
+            <p class="price">₹60000</p>
+            <hr>
+          </div>
+        </td>
+        <td>
+          <p><button id="delete" onclick="del('four')">Delete product</button></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="card">
+            <p><button>Add to Cart</button></p>
+            <img src="../Asset/Mobile.jpg" alt="" style="width: 25%;" id="six">
+            <p class="price">₹20000</p>
+            <hr>
+          </div>
+        </td>
+        <td>
+          <p><button id="delete" onclick="del('six')">Delete product</button></p>
+        </td>
+      </tr>
+  </div>
+  <script>
+    function add(a) {
+
+    }
+    function del(a) {
+      document.getElementById(a).src = "";
+    }
+  </script>
+</body>
+
+</html>
